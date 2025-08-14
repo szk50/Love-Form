@@ -1,4 +1,4 @@
-body {
+/* body { 
     text-align: center;
     background: #ffe6f0;
 }
@@ -23,4 +23,46 @@ table{
 
 .date{
     float: right; 
+
+}*/
+
+body {
+    text-align: center;
+    background: #ffe6f0;
+    margin: 0;
+    padding: 0;
+}
+
+p, span, summary {
+    margin: 0 auto;
+    max-width: 600px; /* keeps lines readable */
+    padding: 0 15px;  /* small padding on mobile */
+    color: rgb(199, 70, 126);
+}
+
+.headings {
+    color: #9933cc;
+    border: 2px solid #e18ab8;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 5px 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.date {
+    float: right; 
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    p, span, summary {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+    .headings {
+        max-width: 90%;
+    }
 }
