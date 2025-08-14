@@ -44,8 +44,9 @@ p, span, summary {
     color: #9933cc;
     border: 2px solid #e18ab8;
     margin: 20px auto;
-    max-width: 600px;
-    padding: 5px 10px;
+    max-width: 90%;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 table {
@@ -66,3 +67,4 @@ table {
         max-width: 90%;
     }
 }
+
