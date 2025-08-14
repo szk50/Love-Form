@@ -13,7 +13,7 @@ p, span, summary {
 }
 
 .headp{
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .headings {
@@ -25,7 +25,7 @@ p, span, summary {
 }
 
 table {
-    padding-top: 5%;
+    padding-top: 2%;
     margin: 0 auto;
 }
 
@@ -42,3 +42,4 @@ table {
     .headings {
         max-width: 90%;
     }
+
