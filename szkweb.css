@@ -30,9 +30,23 @@ table {
 }
 
 .date {
-    float: right; 
-    padding-bottom: 3%;
+    float: inline-end; 
     padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pictures {
+    width: 20%;
+    max-width: 40%; /* keeps image responsive */
+    height: auto;
+    margin:1%;
+    border: 2px solid #e18ab8;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(20, 19, 19, 0.2);
+}
+
+#firstpic {
+    float: none;
 }
 
 /* Mobile adjustments */
@@ -44,6 +58,4 @@ table {
     .headings {
         max-width: 90%;
     }
-
-
-
+}
