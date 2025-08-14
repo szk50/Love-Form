@@ -26,6 +26,7 @@ table{
 
 }*/
 
+/* General page styling */
 body {
     text-align: center;
     background: #ffe6f0;
@@ -33,31 +34,38 @@ body {
     padding: 0;
 }
 
+/* Paragraphs, spans, and summaries */
 p, span, summary {
     margin: 0 auto;
-    max-width: 600px; /* keeps lines readable */
-    padding: 0 15px;  /* small padding on mobile */
     color: rgb(199, 70, 126);
+    max-width: 600px;
+    padding: 0 15px;
 }
 
+/* Headings style */
 .headings {
     color: #9933cc;
     border: 2px solid #e18ab8;
     margin: 20px auto;
-    max-width: 90%;
     padding: 10px 20px;
     text-align: center;
+    width: fit-content;
+    max-width: 80%;
 }
 
+/* Table centering */
 table {
     margin: 0 auto;
 }
 
+/* Date alignment */
 .date {
-    float: right; 
+    float: right;
 }
 
-/* Mobile adjustments */
+/* --- Responsive adjustments --- */
+
+/* Mobile view */
 @media (max-width: 768px) {
     p, span, summary {
         max-width: 90%;
@@ -68,3 +76,15 @@ table {
     }
 }
 
+/* Laptop/Desktop view - restore old narrow layout */
+@media (min-width: 1024px) {
+    p, span, summary {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .headings {
+        margin-left: 450px;
+        margin-right: 450px;
+        width: auto;
+    }
+}
