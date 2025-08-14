@@ -12,6 +12,10 @@ p, span, summary {
     color: rgb(199, 70, 126);
 }
 
+.headp{
+    padding-bottom: 5%;
+}
+
 .headings {
     color: #9933cc;
     border: 2px solid #e18ab8;
@@ -21,6 +25,7 @@ p, span, summary {
 }
 
 table {
+    padding-top: 5%;
     margin: 0 auto;
 }
 
@@ -37,4 +42,3 @@ table {
     .headings {
         max-width: 90%;
     }
-}
