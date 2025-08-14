@@ -32,6 +32,7 @@ table {
 .date {
     float: right; 
     padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 /* Mobile adjustments */
@@ -43,5 +44,6 @@ table {
     .headings {
         max-width: 90%;
     }
+
 
 
