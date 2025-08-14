@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background: #ffe6f0;
+}
+
+p,span,summary {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 20px;
+    color: rgb(199, 70, 126);
+}
+
+.headings {
+    color: #9933cc;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 2px solid #e18ab8;
+    }
+
+table{
+  margin: 0 auto;
+}
+
+.date{
+    float: right; 
+}
