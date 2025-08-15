@@ -23,6 +23,13 @@ p, span, summary {
     max-width: 600px;
     padding: 5px 10px;
 }
+.heading {
+    color: #9933cc;
+    /* border: 2px solid #e18ab8; */
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 5px 10px;
+}
 
 table {
     padding-top: 3%;
