@@ -1,32 +1,3 @@
-/* body {
-    text-align: center;
-    background: #ffe6f0;
-    white-space: nowrap;
-    flex-wrap: wrap;
-}
-
-p,span,summary {
-    margin-left: 150px;
-    margin-right: 150px;
-    border: 20px;
-    color: rgb(199, 70, 126);
-}
-
-.headings {
-    color: #9933cc;
-    margin-left: 450px;
-    margin-right: 450px;
-    border: 2px solid #e18ab8;
-    }
-
-table{
-  margin: 0 auto;
-}
-
-.date{
-    float: right; 
-} */
-
 body {
     text-align: center;
     background: #ffe6f0;
@@ -166,7 +137,7 @@ table {
     float: left;
     list-style-type: none;
     text-decoration: none;
-    padding: 10px 1%;
+    padding: 1% 1%;
     margin: auto auto;
     display: flex;
     justify-content: center;
@@ -184,11 +155,11 @@ table {
 }
 
 .txtbar {
-    padding: 5px;
+    padding: 4px;
     background-color: #ffe6f0;
     border: 2px solid #e18ab8;
     border-radius: 5px;
-    width: 200px;
+    width: 20%;
 }
 
 .txtbar:hover {
