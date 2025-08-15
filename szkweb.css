@@ -37,8 +37,9 @@ table {
 }
 
 .date {
+    clear: both;
     float: inline-end; 
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 3%;
 }
 
@@ -49,11 +50,17 @@ table {
     margin:1%;
     border: 2px solid #e18ab8;
     border-radius: 5%;
+    box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(20, 19, 19, 0.2);
 }
 
 #firstpic {
     float: none;
+}
+
+.info {
+    padding:2%;
+    float:right;
 }
 
 /* Mobile adjustments */
